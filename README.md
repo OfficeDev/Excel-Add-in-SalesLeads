@@ -48,8 +48,7 @@ Shows how to create worksheets and tables, hide worksheets, color worksheet tabs
 5. Press **Get File as Base 64 String**. After a few seconds, a long base 64 string will appear in a textbox on the taskpane. To verify that this is the file, copy and paste the string to a website where you can decode and download it as an *.xslx file, such as https://www.base64decode.org/. 
 6. Open the downloaded file. It should be identical to the file on which you are running the add-in.
 
-> [!NOTE]
-> The **Download Report** button is intended only to illustrate a possible enhancement. It is not implemented.
+> **Note:** The **Download Report** button is intended only to illustrate a possible enhancement. It is not implemented.
 
 ## Questions and comments
 
