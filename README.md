@@ -1,6 +1,7 @@
 # Excel Add-in that supports data import and data analysis 
 Shows how to create worksheets and tables, hide worksheets, color worksheet tabs, freeze table headers, sort tables, use conditional table formatting, create charts, add trendlines to charts, hide gridlines, include hyperlinks from one table to another, and convert the workbook to a byte array. 
 
+
 ## Table of Contents
 * [Change History](#change-history)
 * [Prerequisites](#prerequisites)
@@ -8,6 +9,7 @@ Shows how to create worksheets and tables, hide worksheets, color worksheet tabs
 * [Build and Test](#build-and-test)
 * [Questions and comments](#questions-and-comments)
 * [Additional resources](#additional-resources)
+
 
 ## Change History
 
@@ -38,15 +40,16 @@ Shows how to create worksheets and tables, hide worksheets, color worksheet tabs
 1. Press F5 to start the add-in.
 2. Open the add-in from the **Sales Leads** button on the **Home** ribbon.
 3. On the taskpane, click **Import Data**. Two worksheets are created named **Opportunities** and **Customers**. Note that for both worksheets, the tabs are colored red and the top row remains visible if you scroll down in the worksheet.
-4. Press **Analyse**. A **Report** worksheet is created. Note that:
+4. Select a cell with the name **Sally Jump** on the **Oportunities** sheet. (This is the only salesperson with enough data to make a meaningful analysis.)
+5. Press **Analyse**. A **Report** worksheet is created. Note that:
 > -  Its gridlines are hidden.
 > -  The table at the top contains the sales leads for the salesperson "Sally Jump" taken from the **Opportunities** worksheet.
 > -  The column of customers in the table are hyperlinks to the customer's contact info in the **Customers** worksheet. 
 > -  The **Expected Value** column is conditionally formatted with a color scale, so that the lead with the highest potential value is red, the lead with the lowest is blue, and other leads other leads are mixtures of red, blue, and yellow depending on how close they are to the highest and lowest potential values.
 > - The chart shows the sales in 2016 of the salesperson "Sally Jump". 
 > - The chart has a trendline showing the trend of the salesperson's sales in 2016.
-5. Press **Get File as Base 64 String**. After a few seconds, a long base 64 string will appear in a textbox on the taskpane. To verify that this is the file, copy and paste the string to a website where you can decode and download it as an *.xslx file, such as https://www.base64decode.org/. 
-6. Open the downloaded file. It should be identical to the file on which you are running the add-in.
+6. Press **Get File as Base 64 String**. After a few seconds, a long base 64 string will appear in a textbox on the taskpane. To verify that this is the file, copy and paste the string to a website where you can decode and download it as an *.xslx file, such as https://www.base64decode.org/. 
+7. Open the downloaded file. It should be identical to the file on which you are running the add-in.
 
 > **Note:** The **Download Report** button is intended only to illustrate a possible enhancement. It is not implemented.
 
