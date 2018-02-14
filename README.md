@@ -40,7 +40,7 @@ Shows how to create worksheets and tables, hide worksheets, color worksheet tabs
 1. Press F5 to start the add-in.
 2. Open the add-in from the **Sales Leads** button on the **Home** ribbon.
 3. On the taskpane, click **Import Data**. Two worksheets are created named **Opportunities** and **Customers**. Note that for both worksheets, the tabs are colored red and the top row remains visible if you scroll down in the worksheet.
-4. Select a cell with the name **Sally Jump** on the **Oportunities** sheet. (This is the only salesperson with enough data to make a meaningful analysis.)
+4. Select a cell with the name **Sally Jump** on the **Opportunities** sheet. (This is the only salesperson with enough data to make a meaningful analysis.)
 5. Press **Analyse**. A **Report** worksheet is created. Note that:
 > -  Its gridlines are hidden.
 > -  The table at the top contains the sales leads for the salesperson "Sally Jump" taken from the **Opportunities** worksheet.
