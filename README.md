@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Excel
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 1/10/2018 1:16:05 PM
+---
 # Excel Add-in that supports data import and data analysis 
 Shows how to create worksheets and tables, hide worksheets, color worksheet tabs, freeze table headers, sort tables, use conditional table formatting, create charts, add trendlines to charts, hide gridlines, include hyperlinks from one table to another, and convert the workbook to a byte array. 
 
