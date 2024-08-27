@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
-    "webpack": "1.13.1",
+    "webpack": "5.94.0",
     "babel": "6.5.2",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.17.0",
